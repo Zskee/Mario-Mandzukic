@@ -1,0 +1,104 @@
+body{
+    background-image: url(../Images/background1.jpg);
+}
+
+.footer{
+    color: white;
+    margin-top: 10px;
+    clear: both;
+    position: relative;
+    top: 80pt;
+}
+
+.sve{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.slika1{
+    width: 100%;
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+li {
+    border: 5px solid black;
+    display: inline-block;
+}
+li > a {
+    background-color:rgb(223, 230, 233);			
+    text-align:center;
+    width: 150px;	
+    padding: 15px 0;		
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:link {color: rgb(0, 0, 0);}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color: rgb(0, 0, 0);}
+a:active {color: rgb(0, 0, 0);}
+
+.sve2{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.početak{
+    width: auto;
+    position: relative;
+    top: 20pt;
+    margin: 10 auto;
+    background-color: white;
+    padding: 5pt; 
+    border-color: gray;
+    border-style: solid;
+}
+
+.pismo{
+    position: relative;
+    top: 50pt;
+    width: auto;
+    background-image: url(../Images/pismo.webp);
+    padding: 5pt 10pt;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+}
+
+.gol{
+    position: relative;
+    top: 100pt;
+}
+
+.lopta1{
+    width: 50pt;
+    position: fixed;
+    left: 10%;
+    top: 70%;
+    z-index: 10;
+}
+
+.tekst{
+    position: relative;
+    top: 65pt;
+    color: red;
+}
+
+iframe{
+    max-width: auto;
+    margin: 100px auto 0 auto;
+}
+ .video{
+    text-align: center;
+ }
+
+@media (max-width: 600px) {
+	li{
+		clear:both;
+        max-width: 100%;
+		margin-bottom:2px;
+	}
+	}

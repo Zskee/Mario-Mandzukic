@@ -1,0 +1,134 @@
+body{
+    background-image: url(../Images/background1.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    color: white;
+    margin-top: 10px;
+    clear: both;
+}
+
+.sve{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.slika1{
+    width: 100%;
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+
+li {
+    border: 5px solid black;
+    display: inline-block;
+}
+
+li > a {
+    background-color:rgb(223, 230, 233);			
+    text-align:center;
+    width: 150px;	
+    padding: 15px 0;		
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:link {color: rgb(0, 0, 0);}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color: rgb(0, 0, 0);}
+a:active {color: rgb(0, 0, 0);}
+
+.kontakt{
+    background-color: white;
+    width: 50%;
+    margin: 20pt;
+    padding: 0 10pt 0 10pt;
+    float: left;
+    border-color: gray;
+    border-style: solid;
+}
+
+.kk{
+    width: 150pt;
+    margin: 10pt auto;
+    background-color: white;
+    padding: 0 2pt 0 2pt;
+    border-color: gray;
+    border-style: solid;
+    text-align: center;
+}
+
+.kkslika{
+    margin: 0 auto;
+    width: 20pt;
+}
+
+.slika2{
+    float: left;
+    width: 30%;
+}
+
+.upit{
+    clear: both;
+    width: auto;
+    float: left;
+    margin: 10pt;
+    background-color: white;
+    padding: 0 10pt 5pt 10pt;
+    border-color: gray;
+    border-style: solid;
+}
+
+.slika3{
+    width: 50%;
+    float: left;
+    margin: 10pt;
+}
+
+@media(max-width:600px){
+
+    .slika1{
+        width: 100%;
+    }
+
+    .kontakt{
+        width: auto;
+        clear: both;
+        text-align: center;
+        margin: 10 auto; 
+    }
+    
+    .kk{
+        width: 50%;
+        margin: 10 auto;
+        text-align: center;
+    }
+    
+    .slika2{
+        clear: both;
+        width: 90%;
+        margin: 10 auto;
+    }
+    
+    .upit{
+        clear: both;
+        margin: 10 auto;
+    }
+    
+    .slika3{
+        width: 90%;
+        clear: both;
+        margin: 10 auto;
+    }
+
+    li{
+		clear:both;
+        max-width: 100%;
+		margin-bottom:2px;
+	}
+}

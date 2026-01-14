@@ -1,0 +1,148 @@
+body{
+    background-image: url(../Images/background1.jpg);
+}
+
+.sve{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.slika1{
+    width: 100%;
+}
+
+.totop{
+    position: fixed;
+    width: 50pt;
+    margin-left: 90%;
+    margin-top: 35%;
+}
+
+ul {
+    list-style-type:none;
+    text-align: center;
+}
+li {
+    border: 5px solid black;
+    display: inline-block;
+}
+li > a {
+    background-color:rgb(223, 230, 233);			
+    text-align:center;
+    width: 150px;	
+    padding: 15px 0;		
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:link {color: rgb(0, 0, 0);}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color: rgb(0, 0, 0);}
+a:active {color: rgb(0, 0, 0);}
+
+.footer{
+    color: white;
+    margin-top: 10px;
+    clear: both;
+}
+
+.podnaslovi{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+
+
+div > a{
+    text-decoration: none;
+}
+
+nav div{
+    float: left;
+    background-color: ghostwhite;
+    padding: 10px;
+    margin: 10px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.intervju{
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.pitanja{
+    font-size: larger;
+    font-style: oblique;
+    color: blue;
+}
+
+.slikaintervju{
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.karijera{
+    background-color: white;
+    clear: both;
+    float: right;
+    width: 60%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: gray;
+    border-style: solid;
+}
+
+img.slika2{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+}
+
+.statistika{
+    clear: both;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.stats{
+    background-color: white;
+    width: 20%;
+    margin: 5pt auto;
+    border-color: gray;
+    border-style: solid;
+}
+
+.g{
+    color: blue;
+}
+
+.e{
+    color: red;
+}
+
+@media (max-width: 600px) {
+	li{
+		clear:both;
+        max-width: 100%;
+		margin-bottom:2px;
+	}
+	}
